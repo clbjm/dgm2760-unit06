@@ -4,12 +4,14 @@ function toLowerCase() {
 }
 
 function tellStory() {
-// const nounArray = document.querySelector('#noun')//lowercase string split()
+// const nounArray = document.querySelector('#noun')
 // const adjectiveArray = document.querySelector('#adjectives')
 // const verbeArray = document.querySelector('#verbs')
-const nounArray = ["Horse", "Bridge", "Office", "Cow", "Human", "Rake", "Truck"]
-const adjectiveArray = ["Hairy", "Scary", "Edible"]
-const verbeArray = ["Run", "Dump"]
+
+const nounArray = document.getElementById("noun").value
+document.getElementById("noun").value
+const adjectiveArray = ["furry", "happy"]
+const verbeArray = ["walk", "pump"]
 
     const myStory = `once upon a time there were four ${nounArray[0]}s named flopsy, mopsy, cotton-tail and peter.
     they lived with their mother underneath a ${nounArray[1]} near a ${adjectiveArray[0]} ${nounArray[2]}. 
